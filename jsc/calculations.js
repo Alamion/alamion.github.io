@@ -76,7 +76,7 @@ if (D1**2+E1**2!=0){
 }
 }
 function roughScale(x) {
-const parsed = parseInt(x, 10);
+const parsed = parseFloat(x, 10);
 if (isNaN(parsed)) { return 0; }
 return parsed;
 }
